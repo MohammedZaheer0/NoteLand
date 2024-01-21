@@ -85,6 +85,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // SaveNoteHere Starts here by clicking
         SaveNoteHere.addEventListener("click", function () {
+
+            window.location.reload();
+            NoteLand.style.display = "none";
+            Uppernotland.style.display = "none";
+            Notes.style.display = "flex";
+
             let InnerContent = document.createElement("div");
             ShowContent.appendChild(InnerContent);
             InnerContent.setAttribute("id", "InnerContent");
@@ -157,7 +163,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             ShowContent.appendChild(InnerContent);
             Number.textContent = ShowContent.children.length;
-            
+
 
         });
 
@@ -206,14 +212,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         InnerContent.addEventListener("click",function(){
-
             while (RightDiv.hasChildNodes()) {
                 RightDiv.removeChild(RightDiv.firstChild);
             }
             
             let OuterMainDiv = document.createElement("div");
             RightDiv.appendChild(OuterMainDiv);
-            // OuterMainDiv.classList.add("OuterMainDiv");
             OuterMainDiv.setAttribute("id","OuterMainDiv");
             OuterMainDiv.classList.add("rightdiv");
 
@@ -356,7 +360,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
             
         });
-
 
     }
 });
