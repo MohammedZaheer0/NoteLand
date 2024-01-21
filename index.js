@@ -86,11 +86,6 @@ document.addEventListener("DOMContentLoaded", function () {
         // SaveNoteHere Starts here by clicking
         SaveNoteHere.addEventListener("click", function () {
 
-            window.location.reload();
-            NoteLand.style.display = "none";
-            Uppernotland.style.display = "none";
-            Notes.style.display = "flex";
-
             let InnerContent = document.createElement("div");
             ShowContent.appendChild(InnerContent);
             InnerContent.setAttribute("id", "InnerContent");
@@ -164,6 +159,10 @@ document.addEventListener("DOMContentLoaded", function () {
             ShowContent.appendChild(InnerContent);
             Number.textContent = ShowContent.children.length;
 
+            window.location.reload();
+            NoteLand.style.display = "none";
+            Uppernotland.style.display = "none";
+            Notes.style.display = "flex";
 
         });
 
