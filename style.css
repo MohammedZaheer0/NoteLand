@@ -274,6 +274,9 @@
 
 
 @media only screen and (max-width:320px){
+    #uppernotland{
+        height: 73vh;
+    }
     #uppernotland h1{
         font-size: 1rem;
     }
