@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Space Grotesk', sans-serif;
 }
+
 .container{
     background-color: #000;
     color: #fff;
@@ -274,9 +275,9 @@
 
 
 @media only screen and (max-width:320px){
-    #uppernotland{
+    /* #uppernotland{
         height: 73vh;
-    }
+    } */
     #uppernotland h1{
         font-size: 1rem;
     }

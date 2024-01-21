@@ -288,7 +288,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             CreateTaskBtn.addEventListener("click",function(){
                 if(TaskData.value == '' || TaskData.value == null){
-                    alert("Task Name Can't Be Empty");    /*one more thing should be add here later*/
+                    alert("Task Name Can't Be Empty"); 
                 }
                 else{
 
