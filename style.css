@@ -273,7 +273,6 @@
 
 
 
-
 @media only screen and (max-width:320px){
     /* #uppernotland{
         height: 73vh;
@@ -282,20 +281,23 @@
         font-size: 1rem;
     }
     #uppernotland img{
-        height: 40px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
     }
     #noteland{
         width: 100%;
         margin: 0 auto;
         text-align: center;
+        background-color: #28a7f0;
     }
     #noteland .ptag{
         font-size: 0.5rem;
         text-align: center;
+        word-spacing: 2px;
     }
     #left{
         width: 35%;
+        background: rgb(248, 98, 123);
     }
     #imgh2{
         display: flex;
@@ -333,6 +335,7 @@
     }
     #right{
         width: 65%;
+        background-color: rgb(17, 128, 100);
     }
     #right img{
         height: 120px;
@@ -344,6 +347,8 @@
     #righth3{
         font-size: 0.5rem;
         word-wrap: break-word;
+        color: #fff;
+        font-weight: 500;
     }
     .rightdiv{
         width: 90%;
@@ -431,6 +436,7 @@
         width: 100%;
         margin: 0 auto;
         text-align: center;
+        background-color: #28a7f0;
     }
     #noteland .ptag{
         font-size: 0.8rem;
@@ -438,6 +444,7 @@
     }
     #left{
         width: 35%;
+        background: rgb(248, 98, 123);
     }
     #imgh2{
         display: flex;
@@ -475,6 +482,7 @@
     }
     #right{
         width: 65%;
+        background-color: rgb(17, 128, 100);
     }
     #right img{
         height: 180px;
@@ -486,6 +494,8 @@
     #righth3{
         font-size: 0.7rem;
         word-wrap: break-word;
+        color: #fff;
+        font-weight: 500;
     }
     .rightdiv{
         width: 90%;
